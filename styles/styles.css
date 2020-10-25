@@ -9,14 +9,17 @@ body {
 .nav-container {
     position: fixed;
     width: 100%;
+    height: 4rem;
     background-color: inherit;
+    align-content: center;
+    padding-top: 0.5em
+;
 }
 
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 10%;
+    justify-content: space-around;
 }
 
 ul {
